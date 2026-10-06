@@ -1,0 +1,52 @@
+# Local credentials and configuration
+.env
+.env.*
+!.env.example
+!.env.template
+secrets/
+credentials/
+*.pem
+*.key
+*.p12
+*.pfx
+.vscode/
+
+# Python and tool caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+node_modules/
+
+# Model weights and checkpoints
+*.ckpt
+*.pth
+*.pt
+checkpoints/
+weights/
+
+# Local datasets
+data/
+dataset/
+datasets/
+
+# Temporary files and generated output
+tmp/
+temp/
+build/
+dist/
+*.tmp
+*.temp
+*.log
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+Desktop.ini
